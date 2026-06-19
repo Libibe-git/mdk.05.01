@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 100vw;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: rgb(23, 216, 55);
+        }
+
+        .back {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            padding: 20px;
+
+        }
+
+        a {
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            display: block;
+            text-decoration: none;
+            width: 100%;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background-color: #e0e0e0;
+            cursor: pointer;
+
+        }
+
+        span {
+            color: rgb(17, 128, 35);
+        }
+
+        .otvet {
+            width: 750px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="back">
+        <a id="back" href="../index.html">Назад</a>
+    </div>
+
+    <div>
+        <h1>Билет №53</h1>
+    </div>
+    <div class="otvet">
+        <h2>Ответ: <span id="numb"></span></h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

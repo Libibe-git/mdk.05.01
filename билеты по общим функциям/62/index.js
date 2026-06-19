@@ -1,0 +1,4 @@
+let numb = document.getElementById('numb')
+
+numb.textContent = "импорт?";
+
